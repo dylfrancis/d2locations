@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #232429;
+    font-family: 'Space Mono', monospace;
+    color: white;
+}
+
+.header {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    max-height: 150px;
+}
+
+.header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#traveler_img {
+    height: 150px;
+    float: left;
+    padding-left: 50px;
+    padding-right: 70px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Space Mono', monospace;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-left: 40px;
+    line-height: 150px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.title {
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Space Mono', monospace;
+    color: white;
+}
+
+#planet-image {
+    height: 500px;
+    width: 1000px;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    padding-top: 10px;
+    border-radius: 25px;
+}
+
+.centered {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+}
+
+.body {
+    padding: 50px 150px;
+    text-align: left;
+}
+
+.body h2 {
+    font-size: 40px;
+}
+
+.body h3 {
+    font-size: 25px;
+    padding: 10px
+}
+
+.body p {
+    padding-bottom: 20px;
+}
+
+.bazzar-entrance {
+    padding-bottom: 20px;
+    margin-left: auto;
+    display: block;
+    height: 350px;
+}
+
+#tower-courtyard {
+    height: 350px;
+}
+
+.characters td {
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #1d262a;
+}
+
+.characters th {
+    border: 1.5px solid black;
+    background-color: #131d21;
+    text-align: center;
+}
+
+.characters .char-image {
+    padding: 5px 0;
+}
+
+.char-name {
+    padding: 10px 0;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.characters th {
+    font-size: 16px;
+}
